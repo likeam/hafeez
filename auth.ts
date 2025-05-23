@@ -9,8 +9,8 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import db from "./db/drizzle";
 import { carts, users } from "./db/schema";
 
-import { NextResponse } from "next/router";
 import { cookies } from "next/headers";
+import { NextResponse } from "next/server";
 
 export const config = {
   pages: {
